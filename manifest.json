@@ -1,0 +1,14 @@
+{
+    "name": "新浪邮箱简化版",
+    "description": "修改新浪邮箱界面，移除广告，界面简化",
+    "version": "1.0",
+    "permissions": [
+        "tabs", "http://*/*", "https://*/*"
+    ],
+    "browser_action": {
+        "default_title": "简洁模式",
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
